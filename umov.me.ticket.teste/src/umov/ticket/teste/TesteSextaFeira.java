@@ -13,21 +13,20 @@ public class TesteSextaFeira {
 	// Crianças: R$ 5.50
 	// Estudantes: R$ 8.00
 	// Idosos: R$ 6.00
-	
 	//Sexta-Feira
-    // 11% crianças
-	
+  // 11% crianças
+
 	@Test
 	public void testeDescontoCrianca() {
 		double crianca = 5.50;
-		
+
 		double percentual = 11;
-				
+
 		CalculaIngreco calculaDesconto = new CalculaIngreco();
-				
+
 		double resultado = calculaDesconto.calculaDescontoCrianca(crianca, percentual);
-						
-		assertEquals("Desconto de 11 % para crianças.", 0.60, resultado, 4.90);	
+
+		assertEquals("Desconto de 11 % para crianças.", 0.60, resultado, 4.90);
 	}
 
 }

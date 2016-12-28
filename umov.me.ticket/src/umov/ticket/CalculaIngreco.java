@@ -3,7 +3,7 @@ package src.umov.ticket;
 public class CalculaIngreco {
 
 	public double calculaDescontoCrianca(double crianca, double percentual) {
-		double result = (crianca * percentual)/100; 
+		double result = (crianca * percentual)/100;
 		return result;
 	}
 
@@ -15,6 +15,4 @@ public class CalculaIngreco {
 		return (estudante * percentual)/100;
 	}
 
-	
-	
 }
